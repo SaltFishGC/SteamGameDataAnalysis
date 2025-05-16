@@ -1,0 +1,16 @@
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\entity\GameTypeAnalysis.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\entity\Top1000GamesBySales.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\mapper\DataMapper.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\entity\TopDevelopersBySales.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\entity\HighRatingPopularGames.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\service\DataService.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\controller\DataController.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\entity\GamePriceDistribution.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\entity\GamePriceGoodrateAnalysis.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\entity\PublishYearStats.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\BigDataWebApplication.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\entity\RecentGamesAnalysis.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\config\MVCconfig.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\service\impl\DataServiceImpl.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\entity\YearlyTopGames.java
+D:\Git\BigDataWeb\src\main\java\com\bigdata\web\entity\TopDevelopersByGoodcount.java

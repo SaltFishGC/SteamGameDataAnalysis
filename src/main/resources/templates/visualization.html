@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏数据分析 - 可视化平台</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/visualization.css" rel="stylesheet">
+    <script src="/static/js/echarts.min.js"></script>
+    <style>
+        .chart-container {
+            padding: 20px;
+            min-height: 100vh;
+            position: relative;
+        }
+        .game-type-charts {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .game-type-chart-container {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px 0 rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .game-type-chart {
+            width: 100%;
+            height: 400px;
+        }
+        .main-chart {
+            width: 100%;
+            height: 600px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px 0 rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-content">
+            <h3 class="mb-4">数据分析</h3>
+            <div class="nav flex-column">
+                <div class="nav-item">
+                    <h5>发布年份统计</h5>
+                    <a href="#" class="nav-link" data-section="publish-year-stats">年份发布统计</a>
+                    <a href="#" class="nav-link" data-section="yearly-top-games">年度热门游戏</a>
+                    <a href="#" class="nav-link" data-section="recent-games-analysis">近一年游戏表现</a>
+                </div>
+                <div class="nav-item">
+                    <h5>评价分析</h5>
+                    <a href="#" class="nav-link" data-section="high-rating-popular-games">高好评率游戏</a>
+                    <a href="#" class="nav-link" data-section="game-type-analysis">游戏类型分析</a>
+                </div>
+                <div class="nav-item">
+                    <h5>价格分析</h5>
+                    <a href="#" class="nav-link" data-section="game-price-distribution">价格区间分布</a>
+                    <a href="#" class="nav-link" data-section="game-price-goodrate-analysis">价格与好评率</a>
+                    <a href="#" class="nav-link" data-section="top1000-games-by-sales">销售额分析</a>
+                </div>
+                <div class="nav-item">
+                    <h5>开发商分析</h5>
+                    <a href="#" class="nav-link" data-section="top-developers-by-goodcount">开发商好评率</a>
+                    <a href="#" class="nav-link" data-section="top-developers-by-sales">开发商销售额</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 nuist SaltFishGC</p>
+                <p>仅做交流学习使用</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div id="chart-container" class="chart-container">
+            <div id="main-chart" class="main-chart"></div>
+            <div id="game-type-charts" class="game-type-charts"></div>
+        </div>
+    </div>
+
+    <script src="/static/js/visualization.js"></script>
+</body>
+</html> 
