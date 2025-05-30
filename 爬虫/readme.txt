@@ -8,7 +8,7 @@
     优化版多线程爬取：(getCSV_multiThread_ver2)
         基础的启动等操作已自动化，只要保证驱动已安装且位置正确即可
         chromedriver_path = r"C:\Program Files\Google\Chrome\Application\chromedriver.exe"
-        详见81行，安装驱动时注意版本对应
+        详见350行，安装驱动时注意版本对应
 
         需要修改的参数：（451行）
         start_page = 250 # 起始页
